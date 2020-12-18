@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image : url('ttt.jpg');
+    background-repeat : no-repeat;
+    }
+    
+    
+h2 {
+    margin: 0 auto;
+    font-size: 35px;
+    margin: 10px;
+}
+    
+    
+.flex-container {
+    display: flex;      /* Display property must be set to flex before using flexbox */
+    justify-content: center;    /* center the container horizontally */
+    align-items: center;
+    /* tells the container to align the children in columns rather than rows */
+}
+
+.flex-column {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    /* tells the container to drop down once it reaches max-width */
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+    height: 432px;
+    width: 432px;
+}
+    
+    
+.square {
+    border: 2px solid rgba(0, 0, 0, .75);
+    height: 140px;
+    width: 140px;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+    
+#reset-button {
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid black;
+    height: 55px;
+    width: 100px;
+    margin: 10px;
+}
+
+.button {
+        background-color: #1c87c9;
+        border: none;
+        color: white;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
